@@ -1,0 +1,10 @@
+TUTO LINK : https://www.freecodecamp.org/news/build-web-apis-with-nestjs-beginners-guide/
+
+npm i -g @nestjs/cli
+nest new nest-blog-api
+cd nest-blog-api
+
+npm install -g sequelize
+npm install --save sequelize sequelize-typescript pg-hstore pg
+npm install --save-dev @types/sequelize
+npm install dotenv --save
